@@ -44,17 +44,7 @@
          {% else %} {% endif %}</h4>
     <br>
     <h4>User information: {{session.get('user_info')}}</h4>
-    <!--test-->
-    {% if session.get('coutry') %}
 
-        Your session now stores:
-
-        <div class='container'>
-            <code> {{ session }} </code>
-        </div>
-    
-    {% endif %}
-    <!--test-->
 </div>
 
 {% endblock %}

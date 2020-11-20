@@ -22,5 +22,7 @@ Vi startet med å analysere dataene og jobbe med dem slik vi hadde gjort i forri
 ble gitt i datasettet(bortsett fra income selvfølgelig). denne modellen ga en treffsikkerhet på ca. 84 prosent. 
 Da gruppen starte med deployment så vi at det ble mye å fylle inn hele 12 attributter. Vi valgte de som var mest relevante og endte opp med 8 attributter som input i 
 web applikasjonen. Etter å ha fått modellen til å funke så vi at outputen ikke så veldig riktig ut. Vi gikk tilbake til modellen og utformet en modell som bare tar inn de 
-attributtene som blir spurt om i web applikasjonen. Vi ofret ca. 2 prosent treffsikkerhet, men modellen så ut til å fungere mye bedre nå. Det eneste som kanskje kan være feil i 
-modellen er at når den printer ut prediction og uncertanty får vi noen rare tall som vi ikke tror stemmer helt.
+attributtene som blir spurt om i web applikasjonen. Vi ofret ca. 2 prosent treffsikkerhet, men modellen så ut til å fungere mye bedre nå. Det eneste som kanskje kan være feil i modellen er at når den printer ut prediction og uncertanty får vi noen rare tall som vi ikke tror stemmer helt.
+<br>
+<br>
+Det kan også nevnes at den gamle modellen og den gamle notebooken ligger i deployment-flask sine mapper sammen med de oppdaterte filene som er i bruk i web applikasjonen. 
