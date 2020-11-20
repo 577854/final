@@ -26,8 +26,7 @@ class DataForm(FlaskForm):
                             ('Unmarried','Unmarried'),('Wife','Wife'),('Other-relative','Other-relative')]
     relationship = SelectField('Relationship status', choices=relationshipChoises, validators=[DataRequired()])
 
-    maritalStatusChoises = [('Married','Married'),('No-longer-married','Divorced'),('Never married','Never married'),
-                            ('Married-present-spouse','Married-present-spouse')]
+    maritalStatusChoises = [('Married','Married'),('Not-married','Not-married')]
     maritalStatus = SelectField('Marital status', choices=maritalStatusChoises, validators=[DataRequired()])
 
     #educationChoises = [('Preschool - 9th', 'Preschool - 9th'),('10th - HS-grad', '10th - HS-grad',),
